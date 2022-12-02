@@ -14,16 +14,26 @@ The current version is *2022.10.1*. This project uses [semantic versioning](http
 
 ## Advent Calendar 2022
 
-Link to the [2022 calendar](https://adventofcode.com/2022). 
+Link to the [2022 calendar](https://adventofcode.com/2022).
 
-1. Dec 01 Thu [Calorie Counting](https://adventofcode.com/2022/day/1   
+1. Dec 01 Thu [Calorie Counting](https://adventofcode.com/2022/day/1) - [my day 1 solution](day-01/app.py)
 
 
 
 ## Installation
 
-1. Step 01
+1. Install Python 3
+    - Determine you current version of python
 
+    ```
+    $ python --version
+    ```
+
+2. For a given day, run `app.py`
+
+```
+$ day-01/app.py
+```
 
 
 ## Resources
