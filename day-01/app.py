@@ -20,20 +20,29 @@ for line in lines:
     print(line, end="")
 
     if line == "\n":
-        print("elf_total=", elf_total, "\n", end="")
-        print("elf_index=", elf_index, "\n", end="")
 
         if elf_total > elf_max:
             elf_max = elf_total
             baller_elf = elf_index
 
         elves.append(elf_total) 
+        grand_total += elf_total
+
+        # Reset values
         elf_total = 0
         elf_index += 1
         continue
 
-    elf_total = elf_total + int(line)
-    grand_total += elf_total
+    elf_total += int(line)
 
-pprint(locals())
+if elf_total > elf_max:
+    elf_max = elf_total
+    baller_elf = elf_index
+
+elves.append(elf_total)
+grand_total += elf_total
+
+print("Elf Total=", elf_total, "\n", end="")
+print("Baller Elf=", baller_elf, "\n", end="")
+print("Grand Total=", grand_total, "\n", end="")
 
