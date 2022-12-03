@@ -8,7 +8,7 @@ The Advent of Code project is run by [Eric Wastl](http://was.tl/).
 
 ## Version
 
-The current version is *2022.10.1*. This project uses [semantic versioning](http://semver.org).
+The current version is *2022.10.2*. This project uses [semantic versioning](http://semver.org).
 
 
 
