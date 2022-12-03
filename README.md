@@ -17,6 +17,7 @@ The current version is *2022.10.1*. This project uses [semantic versioning](http
 Link to the [2022 calendar](https://adventofcode.com/2022).
 
 1. Dec 01 Thu [Calorie Counting](https://adventofcode.com/2022/day/1) - [my day 1 solution](day-01/app.py)
+1. Dec 02 Fri [Rock Paper Scissors](https://adventofcode.com/2022/day/2) - [my day 2 solution](day-02/app.py)
 
 
 
